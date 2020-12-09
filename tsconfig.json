@@ -12,6 +12,18 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/lib1/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/lib1/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/lib2/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/lib2/tsconfig.spec.json"
     }
 ]
 }

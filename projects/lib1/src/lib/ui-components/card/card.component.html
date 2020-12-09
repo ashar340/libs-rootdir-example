@@ -1,0 +1,18 @@
+<div class="card text-center">
+  <div class="img">
+    <img
+      [src]="Card.ImageSource"
+      class="card-img-top img-fluid"
+      [alt]="Card.Header"
+    />
+    <div class="card-body">
+      <h4 class="card-title">
+        {{ Card.Header }}
+      </h4>
+      <p class="card-text text-muted">
+        {{ Card.Content }}
+      </p>
+      <a routerLink="{{ Card.RouterLink }}" class="stretched-link"></a>
+    </div>
+  </div>
+</div>
